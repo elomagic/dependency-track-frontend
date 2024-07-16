@@ -25,6 +25,7 @@ import General from './configuration/General';
 import InternalComponents from './configuration/InternalComponents';
 import Jira from './configuration/JiraConfig';
 import Search from './configuration/Search.vue';
+import Cleanup from './configuration/Cleanup.vue'
 import TaskScheduler from './configuration/TaskScheduler.vue';
 import Experimental from './configuration/Experimental.vue';
 // Analyzer plugins
@@ -78,6 +79,7 @@ export default {
     InternalComponents,
     TaskScheduler,
     Search,
+    Cleanup,
     Experimental,
     InternalAnalyzer,
     OssIndexAnalyzer,

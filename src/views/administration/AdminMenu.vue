@@ -112,6 +112,11 @@ export default {
               route: 'configuration/search',
             },
             {
+              component: 'Cleanup',
+              name: this.$t('message.search'),
+              route: 'configuration/cleanup',
+            },
+            {
               component: 'Experimental',
               name: this.$t('admin.experimental'),
               route: 'configuration/experimental',
